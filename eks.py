@@ -20,8 +20,8 @@ deployment = client.V1Deployment(
                 containers=[
                     client.V1Container(
                         name="my-notes-container",
-                        image="",
-                        ports=[client.V1ContainerPort(container_port=5000)]
+                        image="854171615125.dkr.ecr.us-west-2.amazonaws.com/my_cloud_native_app:latest",
+                        ports=[client.V1ContainerPort(container_port=8000)]
                     )
                 ]
             )
